@@ -1,0 +1,7 @@
+metro = float(input("Informe a medida em metros : "))
+print (metro/1000,"Km")
+print(metro/100,"hm")
+print(metro/10,"Dam")
+print(metro*10,"dm")
+print(metro*100,"cm")
+print(metro*1000,"mm")

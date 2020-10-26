@@ -1,0 +1,6 @@
+nome = str(input("Digite o nome completo : ")).strip()
+print ("Em maiusculo : ",nome.upper())
+print("Em minuscula : ",nome.lower())
+print("O seu nome contém : ",len(nome)-nome.count(' '))
+separar = nome.split()
+print('O seu primeiro nome contem {} letras '.format(len(separar[0])) )
